@@ -1,3 +1,2 @@
-# web-design
-# naturepathy
+
 # naturepathy
