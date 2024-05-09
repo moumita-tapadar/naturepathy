@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/* Navbar Strat */
+.navbar{
+  /* height: 100px; */
+  z-index:3;
+}
+.nav-item{
+  padding: 10px;
+}
+
+a:hover{
+  text-decoration: none;
+
+}
+
+.icon1{
+  height: 32px;
+    width: 33px;
+}
+.nav-link {
+  color: black;
+  transition: all 2s;
+}
+.nav-link:hover{
+  color: rgb(8, 237, 8);
+  letter-spacing: 2px;
+  
+}
+#navcolor:hover{
+  color: rgb(100, 221, 31);
+}
+.dropdown-menu .dropdown-item:hover{
+  background-color: green;
+  color:white;
+}
+.Contact{
+  color: black;
+  text-decoration: none;
+}
+.Contact:hover{
+  color: green;
+  text-decoration: none;
+}
+/* nav section close */
+
+.userbackground{
+  background-image: url(../image/Ayurveda-1.jpg);
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.userbackground-header{
+  color: #39411e;
+}
+.required{
+  color: red;
+}
+#submit-1{
+  border-radius: 50px;
+  margin-bottom: 100px;
+}

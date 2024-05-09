@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Patient</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/nature.css">
+  <link rel="stylesheet" href="css/media-nature.css">
+  <link rel="stylesheet" href="css/patient.css">
+</head>
+<body>
+<!-- Navbar Section Start-->
+<nav class="navbar navbar-expand-lg navbar-light  container">
+  <a class="navbar-brand" href="#"><img src="image\naturelogo.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+    <ul class="navbar-nav ">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" id="navcolor">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about" id="navcolor">About</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#our-service" id="navcolor">Services</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navcolor" role="button" data-toggle="dropdown" aria-expanded="false">
+          News
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Blog Left Sidebar</a>
+          <a class="dropdown-item" href="#">Blog Right Sidebar</a>
+          <!-- <div class="dropdown-divider"></div> -->
+          <a class="dropdown-item" href="#">Blog No Sidebar</a>
+          <a class="dropdown-item" href="#">Blog Full width</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navcolor" role="button" data-toggle="dropdown" aria-expanded="false">
+          Contact Us
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">For Patient</a>
+          <a class="dropdown-item" href="#">For Doctor</a>
+        </div>
+      </li>
+    </ul>
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="" href="#"><img class="icon1" src="image\call.png" alt=""></a>
+      <a class="Contact" href="#">Call Us Now <br> 123 456 7890</a>
+    </div>
+  </div>
+</nav>
+<!-- Navbar Section End -->
+
+<!-- Banner Sec -->
+<body>
+  <div class="container-fluid userbackground ">
+    <div class="page-header"> 
+      <h1 class="text-center userbackground-header">Doctor Appoinment Form</h1> 
+    </div>
+    <div class="container">
+      <form class="row ">
+        <div class="col-12">
+          <label class="form-label"><strong>Name : <Span class="required">*</Span></strong></label>
+        </div>
+        <!-- Fname -->
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="First name" name="f_name" id="f_name">
+        </div>
+        <!-- lname -->
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Last name" name="l_name" id="l_name">
+        </div>
+        <!-- Gen -->
+        <div class="col-12 mt-4">
+          <label class="form-label"><strong>Gender : <Span class="required">*</Span></strong></label>
+          <div class=" col-sm-3 form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gen" id="gen1" value="male">
+            <label class="form-check-label" for="gen1">
+              Male
+            </label>
+          </div>
+          <div class=" col-sm-3 form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gen" id="gen2" value="female">
+            <label class="form-check-label" for="gen2">
+              Female
+            </label>
+          </div>
+        </div>
+        <!-- Ph no -->
+        <div class="col-12">
+          <label class="form-label"><strong>Phone : <Span class="required">*</Span></strong></label>
+          <div class="col-6">
+            <input type="number" class="form-control form-control-sm" name="contact" id="contact">
+          </div>
+        </div>
+        <!-- DOB -->
+        <div class="col-12">
+          <label class="form-label mt-2"><strong>Date Of Birth :</strong></label>
+          <div class="col-6">
+            <input type="date" class="form-control form-control-sm" name="dob" id="dob" placeholder="DD/MM/YY">
+          </div>
+        </div>
+        <!-- Address -->
+        <div class="col-12">
+          <label class="form-label mt-2"><strong>Address :</strong></label>
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control" name="address" id="address" placeholder="Street Address">
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control" name="address1" id="address1" placeholder="Street Address Line2">
+        </div>
+        <!-- <div class="col-md-6 mt-4">
+          <input type="text" class="form-control" name="city" id="city" placeholder="City">
+        </div>
+        <div class="col-md-6 mt-4">
+          <input type="text" class="form-control" name="region" id="region" placeholder="Region">
+        </div>
+        <div class="col-md-6 mt-4">
+          <input type="number" class="form-control" name="zip" id="zip" placeholder="Postal/Zip Code">
+        </div>
+        <div class="col-md-6 mt-4">
+          <input type="text" class="form-control" name="landmark" id="landmark" placeholder="Landmark ">
+        </div> -->
+        <!-- mail -->
+        <div class="col-12">
+          <label class="form-label mt-2"><strong>Email : <Span class="required">*</Span> </strong></label>
+          <div class="col-md-6">
+            <input type="text" class="form-control" name="mail" id="mail" placeholder="jhon08@gmail.com" autocomplete="off">
+          </div>
+        </div>
+        <!-- <div class="col-12">
+          <label class="form-label mt-4"><strong>Have you priviously attend our facility <Span class="required">*</Span> </strong></label>
+        </div>
+        <div class="col-md-6">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="attend-facility" id="attend-facility1" value="option1">
+            <label class="form-check-label" for="attend-facility1">
+              Yes
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="attend-facility" id="attend-facility2" value="option2">
+            <label class="form-check-label" for="attend-facility2">
+              No
+            </label>
+          </div>
+        </div> -->
+        <div class="col-12">
+          <label class="form-label mt-4"><strong>Describe Medical Condition :</strong></label>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" name="floatingTextarea" id="floatingTextarea" style="height: 100px"></textarea>
+            <label for="floatingTextarea">Comments</label>
+          </div>
+        </div>
+        <div class="col-12">
+          <label class="form-label mt-4"><strong>Appointment Type</strong></label> <br>
+          <label>Select which appointment type you require :</label>
+          <!-- <div class="col-md">
+            <div class="form-check mt-2">
+              <input class="form-check-input" type="radio" name="switch" id="switch_1">
+              <label class="form-check-label" for="switch_1">
+                Orthopedic
+              </label>
+            </div>
+          </div> -->
+          <div class="col-md">
+            <div class="form-check mt-2">
+              <input class="form-check-input" type="radio" name="switch" id="switch_2">
+              <label class="form-check-label" for="switch_2">
+                Heart Checkup
+              </label>
+            </div>
+          </div>
+          <!-- <div class="col-md">
+            <div class="form-check mt-2">
+              <input class="form-check-input" type="radio" name="switch" id="switch_3">
+              <label class="form-check-label" for="switch_3">
+                Eye Checkup
+              </label>
+            </div>
+          </div> -->
+          <!-- <div class="col-md">
+            <div class="form-check mt-2">
+              <input class="form-check-input" type="radio" name="switch" id="switch_4">
+              <label class="form-check-label" for="switch_4">
+                Chield Specialist
+              </label>
+            </div>
+          </div> -->
+          <div class="col-md">
+            <div class="form-check mt-2">
+              <input class="form-check-input" type="radio" name="switch" id="switch_5">
+              <label class="form-check-label" for="switch_5">
+                Generel Physician
+              </label>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="form-check mt-2">
+              <input class="form-check-input" type="radio" name="switch" id="switch_6">
+              <label class="form-check-label" for="switch_6">
+                Others
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <label class="form-label mt-4"><strong>Have you any prescription? Upload Here</strong></label> <br> 
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3">
+            <input class="form-control mt-2" type="file" name="formFileMultiple" id="formFileMultiple" multiple>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="button" class="btn btn-success" name="submit_1" id="submit_1">Submit</button>
+        </div>
+      </form>
+    </div>
+   
+
+    
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+<script src="./patient.js"></script>
+</html>

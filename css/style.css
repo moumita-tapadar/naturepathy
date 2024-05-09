@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.con-1{
+  height: 400px;
+  border: 3px solid black;
+  margin-top: 20px;
+}
+.column{
+  height: 300px;
+  /* border: 3px solid red; */
+
+}
+.column img{
+  width: 310px;
+    height: 219px;
+    margin: 20px;
+}
+
+.column h4{
+  text-align: center;
+  font-size: 29px;
+}
+.con-2{
+  height: 400px;
+  border: 2px solid black;
+  margin-top: 30px;
+}
+.con-3{
+  /* height: 400px; */
+  border: 2px solid rgb(216, 12, 12);
+  margin-top: 30px;
+}
+.container-fluid h1{
+  text-align: center;
+  font-size: 36px;
+  
+}
+.container-fluid span{
+  font-size: 54px;
+    color: red;
+
+}
+.container-fluid h5{
+  text-align: center;
+  font-size: 18px;
+}
+.column1{
+  /* height: 280px; */
+  /* border: 5px rgb(227, 193, 125) solid; */
+  /* margin-left: 10px; */
+  background-color: antiquewhite;
+  margin: 10px;
+  
+}
+/* .column1-border{
+  border: 20px solid brown;
+} */
+.col-1{
+  background-color: aqua;
+}
+.column1 img{
+  width: 227px;
+  height: 236px;
+  /* margin: 10px -14px 10px 5px; */
+  margin-top: 10px;
+  box-shadow: 4px 3px 1px yellow;
+}
+.column1 h4{
+  text-align: center;
+    font-weight: 500;
+    font-family: emoji;
+    color: chocolate;
+    text-shadow: 2px 2px #c9c9c9;
+}
+.span-para{
+  font-size: 40px;
+}
+.column2{
+  height: 280px;
+  border: 5px rgb(3, 3, 2) solid;
+  margin-left: 10px;
+  background-color: antiquewhite;
+  margin: 10px;
+}
+.column2 img{
+  height: 127px;
+  width: 118px;
+  display: block;
+  margin: 20px auto ;
+}
+
+/* Nav Section */
+nav{
+  background-color: rgb(171, 198, 17);
+  color: brown;
+
+}

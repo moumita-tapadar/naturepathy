@@ -1,0 +1,136 @@
+@media(max-width:320px){
+  .first h5{
+    margin-top:0px;
+      color: #002722;
+      font-weight: 700;
+  }
+  .second h5{
+    margin-top: 0px;
+      color: #002722;
+      font-weight: 700;
+  }
+  .third h5{
+    margin-top: 0px;
+      color: #002722;
+      font-weight: 700;
+  }
+  .first h1 span{
+    font-size: 36px;
+  }
+  .second h1 span{
+    font-size: 36px;
+  }
+  .third h1 span{
+    font-size: 36px;
+  }
+  .first-section-right-img{
+    max-width: 100%;
+  }
+  .col1{
+    border-bottom: 1px solid rgb(185, 185, 185);
+  }
+  
+  .col-right-sec1 h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 27px;
+    font-family: emoji;
+}
+.button-services{
+  width: 186px;
+}
+.Nature-Science-para-left h1 {
+  font-size: 2rem;
+}
+.organic h5{
+  font-size: 15px;
+    margin: 3px;
+    padding-top: 20px;
+}
+#Nature-Science-para-right-img {
+  transform: translate(3px, -16px);
+}
+#our-service h1{
+  font-size: 31px;
+
+}
+.feedback-carousel {
+  transform: translate(50px, 30px);
+}
+.feedback-carousel {
+  transform: translate(50px, 30px);
+}
+#subscribe-btn {
+  border-radius: 54px;
+  transform: translate(-7px, -19px);
+  width: 153px;
+  background-color: #103014;
+  color: #ffffff;
+  font-weight: 500;
+}
+.extra{
+  transform: translate(121px, -44px);
+}
+.dot {
+  /* height: 35px; */
+  width: 35px;
+  background-color: #549d5f;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  /* margin: 20px; */
+  color: #ffffff;
+}
+.video{
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  min-height: 500px;
+}
+#play-video img{
+  transform: translateY(110px);
+}
+#email {
+  padding: 25px 27px;
+  width: 270px;
+  border-radius: 64px;
+  transform: translate(-13px, 17px);
+  border: 0px;
+}
+#facebook{
+  padding: 10px;
+    width: 36px;
+    text-decoration: none;
+    /* margin: 5px 2px; */
+    border-radius: 65%;
+    font-size: 14px
+}
+.Ayurvedic-Store {
+  background-color: #ffffff;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 5px 16px;
+    transform: translate(5px, -206px);
+}
+
+
+}
+
+/* @media (min-width: 576px) {
+  #email {
+    padding: 52px 20px;
+    width: 529px;
+    border-radius: 64px;
+    transform: translate(6px, 48px);
+    border: 0px;
+}
+#subscribe-btn {
+  border-radius: 54px;
+  transform: translate(111%, -170%);
+  width: 156px;
+  background-color: #549d5f;
+  color: #ffffff;
+  font-weight: 500;
+}
+  
+
+} */
